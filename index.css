@@ -2,12 +2,34 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: row;
+    padding: 0;
+    margin: 0;
 }
 
 .banner-section{
 height: 100%;
+width: 45%;
+background-image: url("images/donut.png")
 }
 
 .form-section{
+    background-color: #F9FAFB;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
 
+justify-content: center;
+}
+
+.form-banner{
+    background-color: #FFFFFF;
+}
+
+.headline{
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    width: 60%;
+    padding: 16px;
+    margin: 0 32px;
 }
