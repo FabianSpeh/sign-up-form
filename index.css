@@ -25,7 +25,36 @@ body{
 .banner-section{
 height: 100%;
 width: 60%;
-background-image: url("images/donut.png")
+background-image: url("images/donut.png");
+background-position-x: -100px;
+background-position-y: -100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.banner{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.300);
+    margin-bottom: 256px;
+    
+    color: white;
+    font-size: 32px;
+}
+.banner-text{
+    opacity: 100%;
+}
+
+.donut-logo{
+    font-size:64px;
+    text-align: center;
+    margin: 0px 8px;
+    
 }
 
 .form-section{
