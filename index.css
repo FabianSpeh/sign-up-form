@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-section{
+height: 100%;
+}
+
+.form-section{
+
+}
