@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <section class="banner-section">
@@ -16,13 +17,16 @@
     </section>
 
     <section class="form-section">
+      <div class="headline-container">
       <h2 class="headline">
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams. Sign up now to get
-        started
+        Indulge in Delight: Freshly Baked Bliss, Straight to Your Door! 
+        Satisfy your cravings with our heavenly donuts, delivered piping hot and ready to devour. 
+        Sign up now for a taste of pure sweetness!
       </h2>
 
-      <h2 class="headline">You know you want to</h2>
+      <h2 class="headline">Can't resist? Neither can we.</h2>
+
+    </div>
 
       <div class="form-banner">
 
@@ -56,18 +60,22 @@
             <div class="row-3">
                 <div class="form-element">
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" value="test">
+                    <h6 id="password-mismatch">*Passwords do not match</h6>
                 </div>
                 <div class="form-element">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" name="confirm_password">
+                    <input type="password" id="confirm-password" name="confirm_password" value="test">
                 </div>
             </div>
       </div>
-      <div class="button-container">
-        <button type="submit" class="create-account-btn">Create Account</button>
+      <div class="bottom-container">
+        <div class="button-container">
+          <button type="submit" class="create-account-btn">Create Account</button>
+        </div>
+        <p>Already have an account? <a href="piss.com">Log in</a></p>
       </div>
-      <p>Already have an account? <a href="piss.com">Log in</a></p>
+     
     </form>
     </section>
   </body>
